@@ -40,7 +40,7 @@ public:
 
     virtual rzm::Any BeingUse(CardUser *user, SpireInterface *target);
 
-    card_value& CardBase() { return base_dmg; }
+    card_value& CardDmg() { return base_dmg; }
     card_value& CardHit() { return base_hit; }
 };
 

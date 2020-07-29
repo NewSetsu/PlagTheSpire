@@ -33,6 +33,24 @@
     <ClCompile Include="basic\BasicInterface.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="basic\RoomBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="environment\FightRoom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\MonsterAI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Controller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="character\MonsterCharacter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="character\Warrior.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\Any.h">
@@ -51,6 +69,30 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="basic\CardUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\DefineTheSpire.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basic\RoomBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="environment\FightRoom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\MonsterAI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\DefiniteRand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="character\MonsterCharacter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="character\Warrior.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

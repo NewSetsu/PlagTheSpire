@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -145,16 +145,30 @@
     <ClCompile Include="basic\CardBase.cpp" />
     <ClCompile Include="basic\CardUser.cpp" />
     <ClCompile Include="basic\CharacterBase.cpp" />
+    <ClCompile Include="basic\RoomBase.cpp" />
     <ClCompile Include="cards\CommonCards.cpp" />
+    <ClCompile Include="core\Controller.cpp" />
+    <ClCompile Include="core\MonsterAI.cpp" />
+    <ClCompile Include="environment\FightRoom.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="character\MonsterCharacter.cpp" />
+    <ClCompile Include="character\Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic\BasicInterface.h" />
     <ClInclude Include="basic\CardBase.h" />
     <ClInclude Include="basic\CardUser.h" />
     <ClInclude Include="basic\CharacterBase.h" />
+    <ClInclude Include="basic\DefineTheSpire.h" />
+    <ClInclude Include="basic\RoomBase.h" />
     <ClInclude Include="cards\CommonCards.h" />
+    <ClInclude Include="core\Controller.h" />
+    <ClInclude Include="core\MonsterAI.h" />
+    <ClInclude Include="environment\FightRoom.h" />
+    <ClInclude Include="character\MonsterCharacter.h" />
     <ClInclude Include="utils\Any.h" />
+    <ClInclude Include="utils\DefiniteRand.h" />
+    <ClInclude Include="character\Warrior.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
